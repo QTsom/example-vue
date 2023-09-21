@@ -32,5 +32,6 @@ export default {
 <style scoped>
     .wrapper {
         height: 200px;
+        margin-bottom: 50px;
     }
 </style>
