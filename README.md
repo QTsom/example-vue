@@ -1,2 +1,2 @@
-# vue-Todolist
-vue를 활용한 Todolist
+# vue-TodoList
+vue를 활용한 TodoList
