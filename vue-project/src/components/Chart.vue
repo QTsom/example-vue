@@ -8,6 +8,7 @@
 import {
   Chart as ChartJS,
   Title,
+  Legend,
   Tooltip,
   BarElement,
   CategoryScale,
@@ -16,7 +17,7 @@ import {
 import { Bar } from 'vue-chartjs'
 import * as chartConfig from './chartConfig.js'
 
-ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip)
+ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend)
 
 export default {
   name: 'App',
