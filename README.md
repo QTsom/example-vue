@@ -1,2 +1,2 @@
 # vue-todo-list
-vue 활요한 todo-list
+vue를 활용한 todo-list
