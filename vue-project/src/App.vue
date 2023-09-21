@@ -1,4 +1,6 @@
 <script setup>
+  import {ref} from "vue"
+
   import Content from "./components/Content.vue"
   import Change from "./components/Change.vue"
   import CountEvent from "./components/CountEvent.vue"
@@ -6,6 +8,16 @@
   import MessageForm from "./components/MessageForm.vue"
   import CheckForm from "./components/CheckForm.vue"
   import Chart from "./components/Chart.vue"
+  import BlogPost from "./components/BlogPost.vue"
+  import Progressbar from "./components/Progressbar.vue"
+  
+  const posts = ref([
+    {id:1, title: "첫 번째 리스트"},
+    {id:2, title: "두 번째 리스트"},
+    {id:3, title: "세 번째 리스트"}
+  ]);
+
+  const postFontColor = ref("121212");
 </script>
 
 <template>
@@ -26,6 +38,13 @@
       <CheckForm />
 
       <Chart />
+
+      <Progressbar />
+
+      <div :style="{ color: '#' + postFontColor}">
+        <BlogPost v-for="post in posts" :key="post.id" :title="post.title" @color-text="postFontColor = '999'" />
+      </div>
+      <!-- <BlogPost></BlogPost> -->
     </div>
   </div>
 </template>
