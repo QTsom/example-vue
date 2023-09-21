@@ -1,2 +1,2 @@
-# example-vue
-exercise vue
+# vue-TodoList
+vue를 활용한 TodoList
