@@ -6,7 +6,7 @@
   import MessageForm from "./components/MessageForm.vue"
   import CheckForm from "./components/CheckForm.vue"
   import Chart from "./components/Chart.vue"
-  import DoughnutProgressVue from "./components/DoughnutProgress.vue"
+  import DoughnutProgress from "./components/DoughnutProgress.vue"
 </script>
 
 <template>
