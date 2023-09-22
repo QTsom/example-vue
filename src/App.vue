@@ -6,15 +6,7 @@
   import MessageForm from "./components/MessageForm.vue"
   import CheckForm from "./components/CheckForm.vue"
   import Chart from "./components/Chart.vue"
-  // import BlogPost from "./components/BlogPost.vue"
-
-  // const posts = ref([
-  //   {id: 1, title: "첫 번째 리스트"},
-  //   {id: 2, title: "두 번째 리스트"},
-  //   {id: 3, title: "세 번째 리스트"}
-  // ])
-
-  // const postFontColor = ref('000');
+  import DoughnutProgressVue from "./components/DoughnutProgress.vue"
 </script>
 
 <template>
@@ -36,9 +28,7 @@
 
       <Chart />
 
-      <!-- <div :style="{ color: '#' + postFontColor }">
-        <BlogPost v-for="post in posts" :key="post.id" :title="post.title" @color-text="postFontColor = '888'" />
-      </div> -->
+      <DoughnutProgress />
     </div>
   </div>
 </template>
