@@ -7,6 +7,7 @@
   import CheckForm from "./components/CheckForm.vue"
   import Chart from "./components/Chart.vue"
   import DoughnutProgress from "./components/DoughnutProgress.vue"
+  import TransitionEvent from "./components/TransitionEvent.vue"
 </script>
 
 <template>
@@ -29,6 +30,8 @@
       <Chart />
 
       <DoughnutProgress />
+
+      <TransitionEvent />
     </div>
   </div>
 </template>
