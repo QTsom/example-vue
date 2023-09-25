@@ -31,7 +31,7 @@ export default {
 
 <style scoped>
     .wrapper {
-        height: 200px;
+        height: 250px;
         padding-bottom: 40px;
         margin-bottom: 60px;
         border-bottom: 1px solid #888;
