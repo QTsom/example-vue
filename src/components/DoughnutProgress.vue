@@ -25,5 +25,6 @@
 <style scoped>
     .wrapper {
         height: 50vh;
+        margin-bottom: 40px;
     }
 </style>
